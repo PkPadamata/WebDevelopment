@@ -1,0 +1,128 @@
+				***********************HTML************************
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.What is Docktype!
+-->It gives the information to the browser about what document type expect in HTML5.
+-->Browser need To know the version Of HTML
+
+
+2. Difference b/w HTML4 and HTML5?
+-->HTML5 is the current version of HTML that brings many new and advanced features and improvements over its predecessor, i.e. HTML4.
+	Ex:HTML does not have support for video and audio but, HTML5 supports both video and audio.
+
+
+3.Types of Headings?
+-->HTML defines six levels of headings.
+-->The heading elements are H1, H2, H3, H4, H5, and H6 with H1 being the highest (or most important) level and H6 the least.
+
+
+4.Types of Tags?
+--> There are two types of tags
+	1.Paired Tags
+	2.Un Paired Tags
+[Paired Tags : Which tags has a "Opening" tag an "Closing" Tags are called 'Paired Tags']
+[UnPaired Tags : If any html tag has both opening and closing tag in a single tag,then such html tag is known as unpaired tag. {Ex: br, hr, img, etc.}]
+
+
+5.Types Of Elements?
+-->These are Two Types
+	1.Inline Elements
+	-->An Inline Element does not start on a new line.
+		Here are the inline elements in HTML:
+		-----------------------------------------------------------------------------------------------------------------------------------
+		<a> <abbr> <acronym> <b> <bdo> <big> <br> <button> <cite> <code> <dfn> <em> <i> <img> <input> <kbd> <label> <map> <object> <output>
+		<q> <samp> <script> <select> <small> <span> <strong> <sub> <sup> <textarea> <time> <tt> <var>
+		-----------------------------------------------------------------------------------------------------------------------------------
+		'.'.'.'.'.'.'.'.'.'.'.'.'.'Note: An inline element cannot contain a block-level element!'.'.'.'.'.'.'.'.'.'.'.
+		-----------------------------------------------------------------------------------------------------------------------------------
+
+	2.Blocklevel Elements
+	-->A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+		Ex: Commonly used Block Elements are "<p> & <div>".
+		-----------------------------------------------------------------------------------------------------------------------------------
+		.....{<address> <article> <aside> <blockquote> <canvas> <dd> <div><dl> <dt> <fieldset> <figcaption> <figure> <footer><form><h1>-
+		<h6> <header> <hr> <li> <main> <nav> <noscript> <ol> <p> <pre> <section> <table> <tfoot> <ul> <video>}......
+		-----------------------------------------------------------------------------------------------------------------------------------
+
+
+6.Difference b/w 'b' Tag and 'strong' Tag?
+-->The <strong> element is for content that is of greater importance.
+	while the <b> element is used to draw attention to text without indicating that it's more important.
+
+
+7.Diff bw i tag and empahsis?
+--> The <em> tag "semantically emphasizes on the important word or section of words".If words are emphasized, as if being pronounced with emphasis.
+	The <i> tag is just offset text conventionally styled in italic to show alternative mood or voice.
+
+
+8.Give some tags names for paired and unpaired?
+-->Paired Tags [body,div,ul,ol,p,b etc.....]
+	Unpaired Tags [img,input,a,br etc.....]
+
+
+9.Diff b/w ins tag and u tag?
+-->The <ins> tags means content inserted after it was first published. 
+	->The <u> tag is simply for underlining and has no meaning.
+
+
+10.Diff bw ul tag and ol tag and dd tag and their attributes?
+-->ul : UnOrdered Lists
+	ol : Order Lists
+	dl : Definition list
+	dd : Definition Discription
+
+
+
+11.Write some table tags and their attributes?
+-->Table Tags -->[<table></>, <tr></>, <th></>,<td></>]
+	Attributes are used in table tags : abbr, align, bgcolor, border, cellpadding, celspacing
+	frame, rules, summary, width....
+
+
+12.What are the tags we use for creating form pages and their attributes?
+--> We use "form" Tag to create forms.-->[<input>, <textarea>, <button>, <option>, <optgroup>, <fieldset>, <label>, <output>]...
+	Attributes : label
+
+
+13.Explain about filedset and legend tag?
+-->	1.The <fieldset> tag in HTML5 is used to make a group of related elements in the form, and it creates the box over the elements.
+	2. The <legend> tag is used to define the title for the child's contents. The legend elements are the parent element.
+
+
+14.Explain about input tag and label tag? 
+-->	1.The input tag is used within < form> element to declare input controls that allow users to input data.
+	2.For defining labels for the input element, < label> can be used.
+
+
+15.What are tags needed for designing drop down?
+--> <label>, <select> and <option> etc...
+
+
+16.What is datalist and what are the tags?
+-->	Users will see a drop-down list of pre-defined options in input data.
+	Tags : <datalist></>, <option>, <label></>, <input> etc..
+
+
+
+17.What are schematic tags and explain them?
+-->	Define the meaning of the content they contain.
+	semantic HTML tags : <header>, <article>, and <footer> ..
+
+18.Diff b/w absolute path and relative path?
+-->	Absolute path : We can access the files that are present in our system or folder.
+	Relativ path : We can access from the live server for example from google "url"....
+
+
+19. What is the purpose of alt attribute?
+-->	Using "alt" We can give an alternative name for the Object.If Eror occures we can find whats in there with this alt text.
+
+
+20.Where exactly the i frame tag is used?
+-->	For Embedded document.An inline frame is used to embed another document within the current HTML document.<iframe>..
+
+
+21 Write some attributes that we used in audio tag and video tag?
+-->
+
+
+22. Diff bw image tag and picture tag and figure tag?
+-->

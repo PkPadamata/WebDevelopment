@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Flex Model</title>
+    <style>
+        section,div{
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: row;
+            /*
+            flex-direction: row-reverse;
+            flex-direction: column;
+            */
+            
+        }
+        section div{
+            margin: 10px;
+            padding: 20px;
+            background-color: aquamarine;
+        }
+        .p1{
+            border: 1px solid blue;
+            background-color: beige;
+            margin-top: 5px;
+            display: grid;
+            flex-direction: row;
+            height: 340px;
+            padding: 250px;
+            
+        }
+    </style>
+</head>
+<body>
+     
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+    <section class="p1">
+        <div>1</div>
+        <div>2</div>
+    </section>
+</body>
+</html>

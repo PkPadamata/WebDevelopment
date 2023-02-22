@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS Grid
+        </title>
+        <style>
+            section,div{
+                border: 2px solid red;
+                padding: 0px;
+                /* margin-top: 2px;
+                margin-bottom: 2px; */
+                margin: 0px;
+                display: grid;
+                /* grid-template-columns: 250px 250px 250px 250px 250px 250px 250px 250px; */
+                grid-template-rows: 350px;
+                /* grid-template-rows:33.3% 33.3% 33.3% ; */
+            }
+            header{
+                border: 2px solid blue;
+                /* height: 50px; */
+                padding: 10px;
+                background-color: darkcyan;
+            }
+            footer{
+                border: 2px solid blue;
+                /* height: 50px; */
+                padding: 10px;
+                background-color: darkcyan;
+                text-align: end;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            This Is Header Section
+        </header>
+        <section>
+            <div>One</div>
+            <div>Two</div>
+            <div>Three</div>
+            <div>Four</div>
+            <div>Five</div>
+            <div>Six</div>
+            <div>Seven</div>
+            <div>Eight</div>
+        </section>
+        <footer>
+            <p><address>Created by Pavan Kumar</address></p>
+        </footer>
+    </body>
+</html>

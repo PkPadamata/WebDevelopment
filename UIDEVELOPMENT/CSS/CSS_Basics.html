@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Basics</title>
+        <style>
+            body{
+                
+
+
+            }
+            .p1{
+                border: 25px solid hsl(0, 21%, 57%);
+                background-color: #693535;
+                margin: 10px;
+                text-align: center;
+                padding: 2px;
+                font-style: 'Times Roman';
+            }
+            .p2{
+                border: 20px black;
+                background-color: rgb(71, 96, 74);
+                margin: 10px;
+                padding: 10px;
+                width: 50%;
+                display:inline-block;
+                float: left;
+            }
+            .p3{
+                border: 1px black;
+                background-color: rgb(93, 55, 110);
+                margin: 10px;
+                padding: 40px;
+                display:inline-block;
+                
+                width: 40%;
+            }
+            .p4{
+                border: 1px black;
+                background-color: rgb(64, 106, 161);
+                margin: 10px;
+                padding: 10px;
+                
+                
+                
+            }
+        </style>
+        <!--p{
+                background-color: blueviolet;
+                
+            }-->
+    </head>
+    <body class="a">
+        <div class="p1">
+            <h3>World Of  Cascading Style Sheets [CSS]</h3>
+        </div>
+        <div class="p2">
+            <ul style="list-style-type: none;">
+                <h4>Types Of Selectors</h4>
+                <li>
+                    <b>Core Selectors</b>
+                    <ol style="list-style: circle;"><br>
+                        <li> Global Selector/Universal Selectors---> [*{}]</li>
+                        <li>Tag Selectors------------------------------> [h1{...}-->we can access using Tag Name]</li>
+                        <li>Class Selectors----------------------------> ["(.)className{...}"]</li>
+                        <li>ID Selectors-------------------------------> ["(#)idName{...}"]</li>
+                        <li>Grouping Selectors-----------------------> [EX : "div,h1,p{...}"]</li>
+                        <p><b>Note :</b>"id" Selector can be used only one time in one page "Class Selector" Can use multiple Times in one Page</p>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="p3">
+            <ul style="list-style: none;">
+                <li>
+                    <b>Relationship Selectors</b>
+                    <ol style="list-style: circle;"><br>
+                        <li>Descendent selectors (space)------------------------------> [Ex : "div p{...}"]  <b>Note :</b>Applicable for all parent and child</li>
+                        <li>Direct Child Selector(>)-----------------------------------> [Ex : "ol > li{...}"]</li>
+                        <li>Targeting an Element whose class is 'vue'---------------> [Ex : " .container > .vue {...}]</li>
+                        <li>Adjacent Sibling Selector(+)------------------------------> [Ex : "div + p{...}"]</li>
+                        <li>General Sibling Selector(~)-------------------------------> [Ex : "div ~ p{...}"]</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="p4">
+            <ul style="list-style: none;">
+                <b><li>Attribute Selectors</li></b>
+                <ol style="list-style: none;">
+                    <li>The [attribute] selector is used to select elements with a specified attribute.</li>
+                </ol>
+            </ul>
+        </div>
+        <!--<div>
+            <p style="text-align: center;">The End</p>
+        </div>-->
+    </body>
+</html>

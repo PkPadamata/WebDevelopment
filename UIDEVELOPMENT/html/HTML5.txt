@@ -1,0 +1,31 @@
+
+HTML5:
+-->Types Of  Tags 
+	1.Paired Tags
+	2.UnPaired Tags
+-->Type Of Elements
+	1.Inline Elements
+	2.BlockLevel Elements
+-->Types Of Attributes
+	1.Element Specific Attributes
+	Ex: "img, bdo, abbr, a, iframe, video, audio, source etc.."
+	2.UserDefined Attributes
+-->Types Of List Tags
+	1.ol->Order List (none, square, circle)
+	2.ul->UnOrder List (a, A, i, I)
+	3.dd and dt
+-->Form (Basic Tags and Attributes)
+	Ex: "for, id, name, placeholder, type,autocomplete, min and max"
+-->Drop Down
+	Ex: "select tag, option tag,optgroup: :disabled, value, maultiple, size, label, selected"
+-->Data List
+	Ex:"datalist, input, option" "[type=list, id, value]"
+-->Tables
+	1.table, th, tr, td tags are used
+	2.thead, tbody,tfoot
+	3.rowspan="",colspan=2, border, cellspacing, cellpadding, width, boarderspacing.
+-->Schematic Tags
+	1.Having special meaning 
+	2.header,footer,main,article,address,sectiom,picture,figure,figurecaption,details
+
+	
